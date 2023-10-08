@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    height: 100vh;
+   display :flex;
+    flex-direction : column ;
+    justify-content: center ;
+    align-items : center ; 
+}
+
+
+ div.container input {
+    background-color: white;
+    height: 70px;
+     width: 266.9px;
+     border: 2px solid gray;
+    margin-bottom: 15px;
+     text-align: right; 
+} 
+div.container {
+    width: 80%;
+    background-color: #ffffff;
+    height: 60%;
+    padding: 25px 15px;
+    border-radius :10px;
+
+    font-size: 28px;
+}
+
+div.button{
+height:75%;
+    display :grid;
+     grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(5, 1fr);
+     border-radius :2px;
+     gap:5px;   
+    font-size: 38px;
+}
+.plus {
+    grid-row-start :4;
+    grid-row-end:6;
+    grid-column-start :4;
+    grid-column-end:5;
+}
